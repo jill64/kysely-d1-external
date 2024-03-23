@@ -14,7 +14,6 @@ import { D1ExternalDialect } from 'kysely-d1-external'
 import { Kysely } from 'kysely'
 import { fetch } from 'undici'
 
-// Connect using a DATABASE_URL, provide a fetch implementation
 const db = new Kysely<Database>({
   dialect: new D1ExternalDialect({
     accountId: 'YOUR_CLOUDFLARE_ACCOUNT_ID',
