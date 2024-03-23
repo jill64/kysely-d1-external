@@ -26,8 +26,8 @@
     "typescript": "5.4.3"
   },
   "dependencies": {
-    "d1-driver": "^0.0.2",
-    "kysely": "^0.27.3"
+    "d1-driver": "0.0.2",
+    "kysely": "0.27.3"
   },
   "homepage": "https://github.com/jill64/kysely-d1-external#readme",
   "bugs": "https://github.com/jill64/kysely-d1-external/issues",
