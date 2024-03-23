@@ -69,7 +69,8 @@ class D1ExternalDriver implements Driver {
     return await conn.rollbackTransaction()
   }
 
-  async releaseConnection(): Promise<void> {}
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  async releaseConnection(_conn: D1ExternalConnection): Promise<void> {}
 
   async destroy(): Promise<void> {}
 }
@@ -121,7 +122,12 @@ class D1ExternalConnection implements DatabaseConnection {
     throw new Error('D1ExternalDialect: Transactions are not supported.')
   }
 
-  async *streamQuery<O>(): AsyncIterableIterator<QueryResult<O>> {
+  async *streamQuery<O>(
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    _compiledQuery: CompiledQuery,
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    _chunkSize: number
+  ): AsyncIterableIterator<QueryResult<O>> {
     throw new Error('D1ExternalDialect: Streaming is not supported.')
   }
 }
