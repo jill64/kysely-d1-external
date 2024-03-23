@@ -1,7 +1,7 @@
 {
   "name": "kysely-d1-external",
   "description": "🌤️ Kysely D1 Dialect for external fetch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "dist/index.js",
   "files": [
