@@ -14,7 +14,7 @@ test(
     const db = new Kysely<Database>({
       dialect: new D1ExternalDialect({
         accountId: env.CLOUDFLARE_ACCOUNT_ID!,
-        apyKey: env.CLOUDFLARE_API_KEY!,
+        apiKey: env.CLOUDFLARE_API_KEY!,
         databaseUuid: env.CLOUDFLARE_D1_UUID!
       })
     })
