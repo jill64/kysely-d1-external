@@ -17,16 +17,20 @@
     "build": "tsc && npx publint",
     "prepack": "npm run build",
     "lint": "npx eslint . && npx depcheck",
-    "format": "npx prettier -w ."
+    "format": "npx prettier -w .",
+    "test": "vitest"
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
     "@jill64/eslint-config-ts": "1.1.29",
     "@jill64/prettier-config": "1.0.0",
-    "typescript": "5.5.3"
+    "typescript": "5.5.3",
+    "dotenv": "16.4.5",
+    "@types/node": "20.14.10",
+    "vitest": "2.0.2"
   },
   "dependencies": {
-    "d1-driver": "0.1.2",
+    "d1-driver": "1.0.0",
     "kysely": "0.27.4"
   },
   "homepage": "https://github.com/jill64/kysely-d1-external#readme",
