@@ -15,7 +15,7 @@ import {
 
 export interface D1ExternalDialectConfig {
   accountId: string
-  apyKey: string
+  apiKey: string
   databaseUuid: string
   fetch?: typeof fetch
 }
@@ -80,7 +80,7 @@ class D1ExternalConnection implements DatabaseConnection {
 
   constructor(config: D1ExternalDialectConfig) {
     this.config = config
-    this.d1 = new D1(config.accountId, config.apyKey, config.fetch)
+    this.d1 = new D1(config.accountId, config.apiKey, config.fetch)
   }
 
   async executeQuery<O>(compiledQuery: CompiledQuery): Promise<QueryResult<O>> {
