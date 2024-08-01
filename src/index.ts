@@ -17,7 +17,6 @@ export interface D1ExternalDialectConfig {
   accountId: string
   apiKey: string
   databaseUuid: string
-  fetch?: typeof fetch
 }
 
 export class D1ExternalDialect implements Dialect {
@@ -80,7 +79,7 @@ class D1ExternalConnection implements DatabaseConnection {
 
   constructor(config: D1ExternalDialectConfig) {
     this.config = config
-    this.d1 = new D1(config.accountId, config.apiKey, config.fetch)
+    this.d1 = new D1(config.accountId, config.apiKey)
   }
 
   async executeQuery<O>(compiledQuery: CompiledQuery): Promise<QueryResult<O>> {
