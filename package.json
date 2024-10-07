@@ -44,7 +44,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/kysely-d1-external.git",
-    "image": "https://opengraph.githubassets.com/1e893e10a3eb0b5c9c38d5b1d4a9fd2d2d30f62b5ca6eeb194faa1379c7459b7/jill64/kysely-d1-external"
+    "image": "https://opengraph.githubassets.com/bcaadcb782620829b9ba7dfa023d36c3e1227c60cbd83c3710380e72d7057427/jill64/kysely-d1-external"
   },
   "keywords": [
     "cloudflare",
