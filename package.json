@@ -1,7 +1,7 @@
 {
   "name": "kysely-d1-external",
   "description": "🌤️ Kysely D1 Dialect for external fetch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "files": [
@@ -30,7 +30,7 @@
     "vitest": "2.1.3"
   },
   "dependencies": {
-    "d1-driver": "2.0.0",
+    "d1-driver": "2.0.1",
     "kysely": "0.27.4"
   },
   "homepage": "https://github.com/jill64/kysely-d1-external#readme",
@@ -44,7 +44,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/kysely-d1-external.git",
-    "image": "https://opengraph.githubassets.com/9d7265e3f88afad8e8699fe49f8abc0e7f893de7d2585621b815576971f284e7/jill64/kysely-d1-external"
+    "image": "https://opengraph.githubassets.com/09d30e73b92a531c906be5a29e7a9ecc377f7c7763a024a12670abc54f810aa8/jill64/kysely-d1-external"
   },
   "keywords": [
     "cloudflare",
