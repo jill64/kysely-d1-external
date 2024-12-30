@@ -24,7 +24,7 @@
   "devDependencies": {
     "@jill64/eslint-config-ts": "2.0.0",
     "@jill64/prettier-config": "1.0.0",
-    "typescript": "5.5.3",
+    "typescript": "5.7.2",
     "dotenv": "16.4.7",
     "@types/node": "22.10.2",
     "vitest": "2.1.8"
@@ -44,7 +44,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/kysely-d1-external.git",
-    "image": "https://opengraph.githubassets.com/c80cf0d5f50b3e5a99d66583b416d1a1ab2c724442633474d17e7a1349e2f1bb/jill64/kysely-d1-external"
+    "image": "https://opengraph.githubassets.com/8cbe63877992862e9b64a05a690874fe7502a7fe22cfce602ec1935103520720/jill64/kysely-d1-external"
   },
   "keywords": [
     "cloudflare",
