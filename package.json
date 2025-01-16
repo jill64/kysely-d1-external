@@ -26,7 +26,7 @@
     "@jill64/prettier-config": "1.0.0",
     "typescript": "5.7.3",
     "dotenv": "16.4.7",
-    "@types/node": "22.10.6",
+    "@types/node": "22.10.7",
     "vitest": "2.1.8"
   },
   "dependencies": {
@@ -44,7 +44,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/kysely-d1-external.git",
-    "image": "https://opengraph.githubassets.com/919adc10adcd588e2e6575791f9d306eb4d5133575ba6c0d56994cde7059b1b1/jill64/kysely-d1-external"
+    "image": "https://opengraph.githubassets.com/0d6ac1d5fe27eb7c279cb8be5a25ee996022cea4f98da17a926cffef2d82458f/jill64/kysely-d1-external"
   },
   "keywords": [
     "cloudflare",
