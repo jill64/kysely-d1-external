@@ -27,7 +27,7 @@
     "typescript": "5.7.3",
     "dotenv": "16.4.7",
     "@types/node": "22.10.7",
-    "vitest": "2.1.8"
+    "vitest": "3.0.0"
   },
   "dependencies": {
     "d1-driver": "2.0.1",
