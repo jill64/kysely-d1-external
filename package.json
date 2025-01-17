@@ -27,7 +27,7 @@
     "typescript": "5.7.3",
     "dotenv": "16.4.7",
     "@types/node": "22.10.7",
-    "vitest": "3.0.1"
+    "vitest": "3.0.2"
   },
   "dependencies": {
     "d1-driver": "2.0.1",
@@ -44,7 +44,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/kysely-d1-external.git",
-    "image": "https://opengraph.githubassets.com/dc4f14b180824937cb0b18475549f3948471c467bff28c3f306a17215a5cd823/jill64/kysely-d1-external"
+    "image": "https://opengraph.githubassets.com/befb5b452021715f36efb8124efe478ffce7228b8b054ce89537e36f6ef1506a/jill64/kysely-d1-external"
   },
   "keywords": [
     "cloudflare",
