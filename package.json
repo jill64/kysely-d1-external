@@ -30,7 +30,7 @@
     "vitest": "3.0.4"
   },
   "dependencies": {
-    "d1-driver": "2.0.1",
+    "d1-driver": "2.0.2",
     "kysely": "0.27.5"
   },
   "homepage": "https://github.com/jill64/kysely-d1-external#readme",
