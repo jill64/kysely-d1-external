@@ -1,34 +1,26 @@
+import { expect, test } from 'bun:test'
 import 'dotenv/config'
 import { Kysely } from 'kysely'
 import { env } from 'node:process'
-import { expect, test } from 'vitest'
 import { D1ExternalDialect } from '../src'
 import type { Database } from './schema'
 
-test(
-  'E2E',
-  {
-    timeout: 30000
-  },
-  async ({ onTestFailed }) => {
-    const db = new Kysely<Database>({
-      dialect: new D1ExternalDialect({
-        accountId: env.CLOUDFLARE_ACCOUNT_ID!,
-        apiKey: env.CLOUDFLARE_API_KEY!,
-        databaseUuid: env.CLOUDFLARE_D1_UUID!
-      })
+test('E2E', async () => {
+  const db = new Kysely<Database>({
+    dialect: new D1ExternalDialect({
+      accountId: env.CLOUDFLARE_ACCOUNT_ID!,
+      apiKey: env.CLOUDFLARE_API_KEY!,
+      databaseUuid: env.CLOUDFLARE_D1_UUID!
     })
+  })
 
-    await db.schema
-      .createTable('user')
-      .addColumn('id', 'integer', (col) => col.primaryKey().autoIncrement())
-      .addColumn('name', 'varchar', (col) => col.notNull())
-      .execute()
+  await db.schema
+    .createTable('user')
+    .addColumn('id', 'integer', (col) => col.primaryKey().autoIncrement())
+    .addColumn('name', 'varchar', (col) => col.notNull())
+    .execute()
 
-    onTestFailed(async () => {
-      await db.schema.dropTable('user').execute()
-    })
-
+  try {
     const create_result = await db
       .insertInto('user')
       .values({
@@ -47,7 +39,10 @@ test(
 
     expect(query_result.id).toBe(1)
     expect(query_result.name).toBe('Alice')
-
+  } catch (e) {
     await db.schema.dropTable('user').execute()
+    throw e
   }
-)
+
+  await db.schema.dropTable('user').execute()
+})

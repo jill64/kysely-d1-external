@@ -4,7 +4,7 @@
 
 <!----- BEGIN GHOST DOCS BADGES ----->
 
-<a href="https://npmjs.com/package/kysely-d1-external"><img src="https://img.shields.io/npm/v/kysely-d1-external" alt="npm-version" /></a> <a href="https://npmjs.com/package/kysely-d1-external"><img src="https://img.shields.io/npm/l/kysely-d1-external" alt="npm-license" /></a> <a href="https://npmjs.com/package/kysely-d1-external"><img src="https://img.shields.io/npm/dm/kysely-d1-external" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/kysely-d1-external"><img src="https://img.shields.io/bundlephobia/min/kysely-d1-external" alt="npm-min-size" /></a> <a href="https://github.com/jill64/kysely-d1-external/actions/workflows/ci.yml"><img src="https://github.com/jill64/kysely-d1-external/actions/workflows/ci.yml/badge.svg" alt="ci.yml" /></a>
+<a href="https://npmjs.com/package/kysely-d1-external"><img src="https://img.shields.io/npm/v/kysely-d1-external" alt="npm-version" /></a> <a href="https://npmjs.com/package/kysely-d1-external"><img src="https://img.shields.io/npm/l/kysely-d1-external" alt="npm-license" /></a> <a href="https://npmjs.com/package/kysely-d1-external"><img src="https://img.shields.io/npm/dm/kysely-d1-external" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/kysely-d1-external"><img src="https://img.shields.io/bundlephobia/min/kysely-d1-external" alt="npm-min-size" /></a>
 
 <!----- END GHOST DOCS BADGES ----->
 
