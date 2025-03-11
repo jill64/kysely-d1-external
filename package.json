@@ -27,7 +27,7 @@
     "typescript": "5.8.2",
     "dotenv": "16.4.7",
     "@types/node": "22.13.10",
-    "@types/bun": "1.2.4"
+    "@types/bun": "1.2.5"
   },
   "dependencies": {
     "d1-driver": "2.0.2",
